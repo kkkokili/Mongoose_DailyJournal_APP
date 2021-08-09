@@ -3,7 +3,7 @@
 
 ## Check Out the APP: [Daily-Journal App](https://secret-headland-41731.herokuapp.com/)<br/><br/>
 
-### The Express and Mongoose Deployed Daily Journal Web APP contains the function of publishing and deleting daily journals.</br></br>
+### The Express and Mongoose Deployed Daily Journal Web APP contains the function of publishing, storing and deleting daily journals. </br></br>
 
 ## SKILLS:
 #### It covers the topic of **_HTML, CSS, Js, Node.js, Express, EJS, MongoDB, Mongoose and Heroku**<br/><br/>
