@@ -1,6 +1,7 @@
 //jshint esversion:6
 
 // ---------------import modules Start--------------------
+import {passWord} from "./password.mjs";
 
 import express from "express";
 
@@ -24,7 +25,7 @@ app.use(express.static("public"));
 
 // --------------------MONGOOSE Start-----------------------------------------------------
 
-mongoose.connect(`mongodb+srv://admin-xiaotong:C5KYL2r0JqQ5Fp6l@cluster0.k4lze.mongodb.net/JournalDB`, {
+mongoose.connect(`mongodb+srv://admin-xiaotong:${passWord}@cluster0.k4lze.mongodb.net/JournalDB`, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
